@@ -1,5 +1,25 @@
-#pokemonListWrapper{
-    text-align: center;
-    margin: 1rem auto;
-    /* background-color: red; */
+#pokemonListWrapper {
+  text-align: center;
+  margin: 1rem auto;
+  /* background-color: red; */
+}
+.pokemon-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.controls > button{
+    padding: 0.7rem 2.3rem;
+    margin: 4px;
+    background-color: #ff5c8a;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: cursive;
+    letter-spacing: 4px;
+    cursor: pointer;
+    outline: none;
 }
