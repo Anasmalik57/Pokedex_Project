@@ -6,6 +6,7 @@
     justify-content: center;flex-direction: column;
     align-items: center;
     margin-top: 2rem;
+    transition: all 0.3s ease
 }
 .pokemon-name{
     font-size: larger;
@@ -20,4 +21,5 @@
 .pokemon:hover{
     background-color: #e7c6ff;
     border-radius: 10px;
+    transform: scale(1.1); 
 }
