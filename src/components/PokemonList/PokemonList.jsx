@@ -15,8 +15,7 @@ function PokemonList() {
   const [prevUrl, setPrevUrl] = useState("");
 
   async function downloadPokemons() {
-
-    setIsLoading(true)
+    setIsLoading(true);
 
     const response = await axios.get(pokedex_url); // this downloads list of 20 pokemons
 
@@ -66,12 +65,22 @@ function PokemonList() {
         {isLoading
           ? "Loading....."
           : pokemonList.map((p) => (
-              <Pokemon name={p.name} image={p.image} key={p.id} />
+              <Pokemon name={p.name} image={p.image} key={p.id} id={p.id} />
             ))}
       </div>
       <div className="controls">
-        <button disabled={prevUrl == null} onClick={()=>setPokedex_url(prevUrl)} >Prev</button>
-        <button disabled={nextUrl == null} onClick={()=>setPokedex_url(nextUrl)} >Next</button>
+        <button
+          disabled={prevUrl == null}
+          onClick={() => setPokedex_url(prevUrl)}
+        >
+          Prev
+        </button>
+        <button
+          disabled={nextUrl == null}
+          onClick={() => setPokedex_url(nextUrl)}
+        >
+          Next
+        </button>
       </div>
     </div>
   );

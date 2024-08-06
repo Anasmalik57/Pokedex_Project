@@ -1,0 +1,22 @@
+body {
+  width: calc(100vw - 64px);
+}
+
+#pokedex-heading {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 5px;
+  text-decoration: underline;
+  padding: 0rem 0rem 1rem 0rem;
+}
+.Link {
+  text-decoration: none;
+  color: black;
+}
+
+.outer-Pokedex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
