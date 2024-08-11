@@ -1,5 +1,5 @@
 .pokemon-details-name{
-    font-size: xx-large;
+    font-size: large;
     color: #edf2fb;
     letter-spacing: 0.2rem;
     text-transform: capitalize;
@@ -12,7 +12,7 @@
 .pokemon-details-wrapper{
     border: 2px solid;
     text-align: center;
-    padding: 20px 40px;
+    padding: 40px 80px;
     border-radius: 20px;
     background-color: #38040e   ;
 }
@@ -29,15 +29,20 @@
     box-shadow: 0 20px 30px -6px rgba(238, 103, 97, 0.5);
     outline: none;
     cursor: pointer;
+    letter-spacing: 0.1rem;
     border: none;
-    font-size: 24px;
+    font-size: 17.5px;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 30px;
+    padding: 9px 27px;
+    margin: 2px;
 }
 .pokemon-details-image{
-    width: 350px;
-    height: 380px;
+    width: 150px;
+    /* height: 380px; */
 }
+/* .TypesOfPokemon{
+    margin: 20px 0px;
+} */
